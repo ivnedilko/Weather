@@ -1,0 +1,182 @@
+*
+{
+	box-sizing: border-box;
+	transition: all 0.1s ease-in;
+}
+
+html 
+{
+	height: 100%;
+}
+html, body 
+{
+	min-height: 100%;
+}
+
+  body {
+	font: 400 22px/1.3 "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	border: 25px solid #2B81AC;
+	background-color: #3399CC;
+	color: #F9F9F9;
+  }
+
+
+body
+{
+	font: 400 22px/1.3 "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: #3399cc;
+	border: 25px solid #2b81ac;
+	margin: 0;
+}
+
+h1, h2, h3, h4 
+{
+  color: #ffffff;
+  font-weight: 600;
+}
+
+h1 
+{
+	font-size: 30px;
+}
+  
+h4 
+{
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.ba-container
+{
+	margin: 0 auto;
+	padding: 0 20px;
+	max-width: 1024px;
+}
+
+.ba-header, .ba-footer
+{
+	padding: 30px 60px;
+	color: #fff;
+}
+
+.ba-cities
+{
+	list-style: none;
+	font-size: 0;
+}
+
+.ba-cities li
+{
+	border: 3px solid #fff;
+	text-align: center;
+	font-size: 26px;
+	background: #7a7593;
+	display: inline-block;
+	padding: 30px 10px;
+	width: 25%;
+}
+
+.ba-cities:hover > li
+{
+	opacity: .6;
+}
+
+.ba-cities li:hover 
+{
+	opacity: 1;
+}  
+
+.ba-cities li:active 
+{
+	background: #ffffff;
+}
+
+.ba-cities li:first-child 
+{
+	width: 50%;
+	background-color: #3399cc;
+}
+
+.ba-cities li:last-child 
+{
+	width: 100%;
+}
+
+.ba-cities li .ba-temperature:after
+{
+	content: "°C";
+}
+
+.ba-cities li:nth-child(1) 
+{
+	background: #3399CC;
+}
+
+.ba-cities li:nth-child(2) 
+{
+	background: #33cccc;
+}
+
+.ba-cities li:nth-child(3) 
+{
+	background: #996699;
+}
+
+.ba-cities li:nth-child(4) 
+{
+	background: #c24747;
+}
+
+.ba-cities li:nth-child(5) 
+{
+	background: #e2674a;
+}
+
+.ba-cities li:nth-child(6) 
+{
+	background: #ffcc66;
+}
+
+.ba-cities li:nth-child(7) 
+{
+	background: #99cc99;
+}
+
+.ba-cities li:nth-child(8) 
+{
+	background: #669999;
+}
+
+.ba-cities li:nth-child(9) 
+{
+	background: #cc6699;
+	width: 50%;
+}
+
+.ba-cities li:nth-child(10) 
+{
+	background: #339966;
+}
+
+.ba-cities li:nth-child(11) 
+{
+	background: #666699;
+}
+
+.ba-temperature,
+.ba-cities li .wi 
+{
+  display: inline-block;
+  vertical-align: middle;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.ba-cities
+{
+	padding: 15px 60px;
+}
+
+.ba-title:hover
+{
+	color: #ffcc66;
+}
